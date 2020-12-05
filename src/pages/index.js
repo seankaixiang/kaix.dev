@@ -12,10 +12,17 @@ const IndexPage = () => (
   <Layout activePage="/">
     <SEO />
     <div className="mt-12 flex flex-col-reverse lg:flex-row items-center lg:justify-between lg:space-x-6">
-      <h1 className="mt-12 lg:mt-0 max-w-3xl text-3xl sm:text-4xl text-primary font-semibold sm:text-left md:text-center lg:text-left">
-        Hi, I’m Sean.
-        <br className="mb-6 lg:hidden" /> I’m an web developer and full-stack software engineer.
-      </h1>
+      <div className="mt-12 lg:mt-0 max-w-3xl text-primary sm:text-left md:text-center lg:text-left">
+        <h1 className="text-5xl sm:text-5xl font-medium">
+          Hello.
+        </h1>
+        <h2 className="mt-6 text-2xl sm:text-3xl font-medium">
+          It's me, Sean.
+        </h2>
+        <h3 className="mt-6 text-xl sm:text-2xl font-light">
+          I’m a Full Stack software engineer living in Taipei for 7+ years. I focus on Web Application and Mobile app with Web API.
+        </h3>
+      </div>
       <div className="relative">
         <Blob />
         <div className="absolute w-full h-full top-0 flex items-center justify-center">
