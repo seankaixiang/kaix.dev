@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
 import ThemeToggle from "./themeToggle"
-import { NavLink, BlobHeader } from "./atoms"
+import { NavLink, BlobHeader, HeaderLink } from "./atoms"
 
 const Header = ({ activePage }) => (
   <header className="container m-auto px-5 sm:px-12 md:px-20 max-w-screen-xl h-32 overflow-hidden">
@@ -24,9 +24,9 @@ const Header = ({ activePage }) => (
         <NavLink to="/" title="Home" selected={activePage === "/"}>
           Home
         </NavLink>
-        <NavLink to="/blog" title="Blog" selected={activePage === "blog"}>
+        <HeaderLink link="https://blog.kaix.dev">
           Blog
-        </NavLink>
+        </HeaderLink>
         <NavLink
           to="/projects"
           title="Projects"

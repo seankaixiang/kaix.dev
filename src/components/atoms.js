@@ -98,6 +98,32 @@ export const ExtLink = ({ children, link, newTab }) => {
   }
 }
 
+export const HeaderLink = ({ children, link, newTab }) => {
+  if (newTab) {
+    return (
+      <a
+        href={link}
+        className="font-medium hover:text-accent"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {children}
+      </a>
+    )
+  } else {
+    return (
+      <a
+        href={link}
+        className="font-medium hover:text-accent"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {children}
+      </a>
+    )
+  }
+}
+
 export const ProjectLink = ({ label, url }) => {
   return (
     <span className="font-medium text-tertiary hover:text-accent">

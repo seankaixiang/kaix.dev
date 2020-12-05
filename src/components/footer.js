@@ -1,5 +1,5 @@
 import React from "react"
-import { NavLink } from "./atoms"
+import { NavLink, HeaderLink } from "./atoms"
 
 const Footer = _ => {
   return (
@@ -10,9 +10,9 @@ const Footer = _ => {
             <NavLink to="/" title="Home">
               Home
             </NavLink>
-            <NavLink to="/blog" title="Blog">
+            <HeaderLink link="https://blog.kaix.dev">
               Blog
-            </NavLink>
+            </HeaderLink>
             <NavLink to="/projects" title="Projects">
               Projects
             </NavLink>
@@ -25,13 +25,13 @@ const Footer = _ => {
               className="text-xs tracking-wider self-center md:self-end"
               aria-label="Copyright"
             >
-              © 2020 Jeff Jadulco. All Rights Reserved.
+              © 2020 Sean Kaixiang. All Rights Reserved.
             </span>
             <div className="flex flex-row items-center space-x-4 justify-center md:justify-end">
               <span>
                 <a
-                  href="mailto:hey@jeffjadulco.com"
-                  aria-label="Email hey@jeffjadulco.com"
+                  href="mailto:seankaixiang@outlook.com"
+                  aria-label="Email seankaixiang@outlook.com"
                   title="Email"
                 >
                   <svg
@@ -47,7 +47,7 @@ const Footer = _ => {
               </span>
               <span>
                 <a
-                  href="https://github.com/jeffjadulco"
+                  href="https://github.com/seankaixiang"
                   aria-label="Visit GitHub profile"
                   title="Visit GitHub profile"
                   target="_blank"
@@ -64,9 +64,9 @@ const Footer = _ => {
                   </svg>
                 </a>
               </span>
-              {/* <span>
+              <span>
                 <a
-                  href="https://www.linkedin.com/in/jeffjadulco/"
+                  href="https://www.linkedin.com/in/seankaixiang/"
                   aria-label="Visit LinkedIn profile"
                   title="Visit LinkedIn profile"
                   target="_blank"
@@ -82,10 +82,10 @@ const Footer = _ => {
                     <path d="M27.5 3.5h-23c-.553 0-1 .447-1 1v23c0 .553.447 1 1 1h23c.553 0 1-.447 1-1v-23c0-.553-.447-1-1-1zM10.916 24.803h-3.71V12.872h3.71v11.931zM9.062 11.241a2.15 2.15 0 110-4.301 2.15 2.15 0 010 4.3zm15.741 13.562h-3.706V19c0-1.384-.025-3.162-1.928-3.162-1.928 0-2.225 1.506-2.225 3.062v5.903H13.24V12.872h3.556v1.631h.05c.494-.937 1.703-1.928 3.51-1.928 3.756 0 4.446 2.472 4.446 5.684v6.544z" />
                   </svg>
                 </a>
-              </span> */}
+              </span>
               <span>
                 <a
-                  href="https://twitter.com/jeffjadulco"
+                  href="https://twitter.com/seankaixiang"
                   aria-label="Visit Twitter profile"
                   title="Visit Twitter profile"
                   target="_blank"
@@ -104,7 +104,7 @@ const Footer = _ => {
               </span>
               <span>
                 <a
-                  href="https://www.instagram.com/jeffjadulco/"
+                  href="https://www.instagram.com/seankaixiang/"
                   aria-label="Visit Instagram profile"
                   title="Visit Instagram profile"
                   target="_blank"

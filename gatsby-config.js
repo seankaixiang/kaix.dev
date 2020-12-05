@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Jeff Jadulco`,
-    description: `Jeff Jadulco is a game and javascript developer`,
-    author: `Jeff Jadulco`,
+    title: `Sean Kaixiang`,
+    description: `Sean Kaixiang is a full stack web developer`,
+    author: `Sean`,
     siteUrl:
       process.env.DEV_ENV === 1
-        ? `https://dev.jeffjadulco.com`
-        : `https://jeffjadulco.com`,
+        ? `https://dev.kaix.dev`
+        : `https://kaix.dev`,
     image: `/images/og-card.png`,
-    twitterUsername: `@jeffjadulco`,
+    twitterUsername: `@seankaixiang`,
   },
   plugins: [
     {
@@ -38,8 +38,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Jeff Jadulco`,
-        short_name: `Jeff Jadulco`,
+        name: `Sean Kaixiang`,
+        short_name: `Sean Kaixiang`,
         start_url: `/`,
         background_color: `#2d3748`,
         theme_color: `#81E6D9`,
@@ -53,8 +53,8 @@ module.exports = {
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
-        host: "https://jeffjadulco.com",
-        sitemap: "https://jeffjadulco.com/sitemap.xml",
+        host: "https://kaix.dev",
+        sitemap: "https://kaix.dev/sitemap.xml",
         policy: [{ userAgent: "*", allow: "/" }],
         env: {
           development: {
