@@ -20,7 +20,7 @@ const IndexPage = () => (
           It's me, Sean.
         </h2>
         <h3 className="mt-6 text-xl sm:text-2xl font-light">
-          I’m a Full Stack software engineer living in Taipei for 7+ years. I focus on Web Application and Mobile app with Web API.
+          I’m a Full Stack software engineer living in Taipei for 7+ years. I primarily focus on Web Application and Mobile app with API.
         </h3>
       </div>
       <div className="relative">

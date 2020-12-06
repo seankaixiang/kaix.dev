@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
 import ThemeToggle from "./themeToggle"
+import { HeaderLink } from "./atoms"
 
 const MobileNav = () => {
   const [navShow, setNavShow] = React.useState(false)
@@ -61,7 +62,7 @@ const MobileNav = () => {
               <Link to="/">HOME</Link>
             </div>
             <div className="flex-grow">
-              <Link to="/blog">BLOG</Link>
+            <HeaderLink link="https://blog.kaix.dev">Blog</HeaderLink>
             </div>
             <div className="flex-grow">
               <Link to="/projects">PROJECTS</Link>
