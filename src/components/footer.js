@@ -21,12 +21,27 @@ const Footer = _ => {
             </NavLink>
           </nav>
           <div className="flex flex-col-reverse md:flex-row md:justify-between space-y-reverse space-y-8 md:space-y-0">
-            <span
-              className="text-xs tracking-wider self-center md:self-end"
-              aria-label="Copyright"
-            >
-              © 2020 Sean Kaixiang. All Rights Reserved.
-            </span>
+            <div className="text-xs tracking-wider self-center md:self-end">
+              <div className="text-center md:text-left">
+                <span className="mr-1">Theme by</span>
+                <a
+                  className="text-accent hover:text-accent"
+                  href="https://jeffjadulco.com/"
+                  aria-label="Visit Theme author"
+                  title="Jeff Jadulco"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Jeff Jadulco
+                </a>
+              </div>
+              <div
+                className=""
+                aria-label="Copyright"
+              >
+                © 2020 Sean Kaixiang. All Rights Reserved.
+              </div>
+            </div>
             <div className="flex flex-row items-center space-x-4 justify-center md:justify-end">
               <span>
                 <a
