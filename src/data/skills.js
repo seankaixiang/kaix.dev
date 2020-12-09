@@ -12,7 +12,9 @@ export default [
           "Jekyll / Gatsby / Hugo",
           "SEO-friendly",
           "Agolia",
-          "Google AD manager"
+          "Google AD manager",
+          "Progress Web App (PWA)",
+          "Accelerated Mobile Pages (AMP)"
         ]
       },
       {
