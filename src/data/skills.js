@@ -21,7 +21,7 @@ export default [
       },
       {
         title: "DevOps",
-        skills: ["Google Cloud Plateform", "Apache", "Debian / Ubuntu"]
+        skills: ["Google Cloud Plateform", "Debian / Ubuntu", "Apache", "Git"]
       },
       {
         title: "Tool",
