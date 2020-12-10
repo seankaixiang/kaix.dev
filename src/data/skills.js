@@ -27,7 +27,7 @@ export default [
       },
       {
         title: "Tool",
-        skills: ["Vagrant", "Visual Studio Code"]
+        skills: ["Vagrant / VirtualBox", "Visual Studio Code"]
       }
     ],
   },
