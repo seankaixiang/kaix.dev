@@ -6,20 +6,18 @@ export default [
       {
         title: "Front-end Development",
         skills: [
-          "HTML / CSS",
+          "HTML / CSS / Bootstrap",
           "Javascript / jQuery",
-          "Bootstrap",
-          "Jekyll / Gatsby / Hugo",
-          "SEO-friendly",
           "Agolia",
           "Google AD manager",
           "Progress Web App (PWA)",
-          "Accelerated Mobile Pages (AMP)"
+          "Accelerated Mobile Pages (AMP)",
+          "Markdown"
         ]
       },
       {
         title: "Backend Development",
-        skills: ["PHP", "Laravel", "Wordpress", "MySQL", "MongoDB"]
+        skills: ["PHP / Laravel / Twig", "MySQL", "MongoDB"]
       },
       {
         title: "DevOps",
@@ -27,7 +25,7 @@ export default [
       },
       {
         title: "Tool",
-        skills: ["Vagrant / VirtualBox", "Visual Studio Code"]
+        skills: ["Vagrant / VirtualBox", "Visual Studio Code", "Swagger / OpenAPI"]
       }
     ],
   },
