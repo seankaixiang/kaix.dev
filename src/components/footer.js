@@ -16,9 +16,6 @@ const Footer = _ => {
             <NavLink to="/projects" title="Projects">
               Projects
             </NavLink>
-            <NavLink to="/about" title="About">
-              About
-            </NavLink>
           </nav>
           <div className="flex flex-col-reverse md:flex-row md:justify-between space-y-reverse space-y-8 md:space-y-0">
             <div className="text-xs tracking-wider self-center md:self-end">

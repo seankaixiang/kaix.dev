@@ -34,9 +34,6 @@ const Header = ({ activePage }) => (
         >
           Projects
         </NavLink>
-        <NavLink to="/about" title="About" selected={activePage === "about"}>
-          About
-        </NavLink>
       </span>
       <ThemeToggle className="hidden sm:block hover:text-accent transition duration-150" />
     </nav>

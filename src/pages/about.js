@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { ExtLink, InlinePageLink } from "../components/atoms"
+import { ExtLink } from "../components/atoms"
 import Contact from "../components/contact"
 
 const About = _ => {
@@ -28,12 +28,6 @@ const About = _ => {
           <p>
             This also serves a motivation for me to continue making projects
             because now I finally have a place to showcase them.
-          </p>
-          <h2>Why write a blog?</h2>
-          <p>
-            My{" "}
-            <InlinePageLink to="/blog/welcome">first blog post</InlinePageLink>{" "}
-            explained it. I'd be happy if you read it :)
           </p>
           <h2>What else?</h2>
           <p>

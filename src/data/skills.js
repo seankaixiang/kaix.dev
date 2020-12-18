@@ -16,7 +16,7 @@ export default [
         ]
       },
       {
-        title: "Backend Development",
+        title: "Back-end Development",
         skills: ["PHP / Laravel / Twig", "MySQL", "MongoDB"]
       },
       {
@@ -24,7 +24,7 @@ export default [
         skills: ["Google Cloud Plateform", "Debian / Ubuntu", "Apache", "Git"]
       },
       {
-        title: "Tool",
+        title: "Other",
         skills: ["Vagrant / VirtualBox", "Visual Studio Code", "Swagger / OpenAPI"]
       }
     ],
