@@ -20,14 +20,14 @@ export const Contact = () => {
           <ExtLink link="https://github.com/seankaixiang" newTab>
             GitHub
           </ExtLink>
-          ,{" "}
+          {/* ,{" "}
           <ExtLink link="https://twitter.com/seankaixiang" newTab>
             Twitter
           </ExtLink>
           ,{" "}
           <ExtLink link="https://www.instagram.com/seankaixiang/" newTab>
             Instagram
-          </ExtLink>
+          </ExtLink> */}
         </p>
         <div className="mx-auto  pt-10 flex justify-center">
           <Button width="widest" link="mailto:seankaixiang@outlook.com">
