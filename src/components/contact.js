@@ -30,7 +30,7 @@ export const Contact = () => {
           </ExtLink>
         </p>
         <div className="mx-auto  pt-10 flex justify-center">
-          <Button width="widest" link="mailto:hey@jeffjadulco.com">
+          <Button width="widest" link="mailto:seankaixiang@outlook.com">
             <span className=" text-2xl font-semibold text-on-accent">
               Say hello
             </span>
