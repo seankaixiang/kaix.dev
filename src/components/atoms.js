@@ -115,7 +115,6 @@ export const HeaderLink = ({ children, link, newTab }) => {
       <a
         href={link}
         className="font-medium hover:text-accent"
-        target="_blank"
         rel="noopener noreferrer"
       >
         {children}
