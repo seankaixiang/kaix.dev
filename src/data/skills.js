@@ -4,14 +4,11 @@ export default [
     description: "Skills I learned",
     categories: [
       {
-        title: "Programming Languages",
-        skills: ["PHP", "Javascript"]
-      },
-      {
         title: "Front-end Development",
         skills: [
           "HTML5",
           "CSS3",
+          "Javascript",
           "Bootstrap",
           "jQuery",
           "Progress Web App (PWA)",
@@ -19,12 +16,8 @@ export default [
         ]
       },
       {
-        title: "Database",
-        skills: ["MySQL", "MongoDB", "MariaDB"]
-      },
-      {
         title: "Back-end Development",
-        skills: ["Laravel", "Twig", "Apache"]
+        skills: ["PHP","Laravel", "Twig", "Apache","MySQL", "MongoDB", "MariaDB"]
       },
       {
         title: "DevOps",
